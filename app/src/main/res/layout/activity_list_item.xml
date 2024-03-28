@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/parentLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageList"
+            android:layout_width="114dp"
+            android:layout_height="85dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/beathonda" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center|left"
+            android:layout_margin="7dp"
+            android:layout_marginLeft="8dp">
+
+
+
+            <TextView
+                android:id="@+id/li_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Motor"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/li_harga"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="harga"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/li_merek"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Merek Motor"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

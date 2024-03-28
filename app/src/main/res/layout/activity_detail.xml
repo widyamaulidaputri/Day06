@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Detail">
+
+    <ImageView
+        android:id="@+id/imageDetail"
+        android:layout_width="218dp"
+        android:layout_height="299dp"
+        android:src="@drawable/beathonda" />
+
+
+    <TextView
+        android:id="@+id/dt_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Motor"
+        android:textSize="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        />
+    <TextView
+        android:id="@+id/dt_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="harga"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/dt_merek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Merek Motor"
+        android:textSize="23dp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
